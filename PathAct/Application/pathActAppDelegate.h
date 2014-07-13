@@ -11,5 +11,9 @@
 @interface pathActAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UINavigationController *navigationController;
+
+// Al cargar la aplicación cargamos la lista de propiedades
+-(void) readPropertiesList;
 
 @end

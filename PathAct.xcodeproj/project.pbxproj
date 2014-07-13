@@ -7,20 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A630045045734C15BCB96DBB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D157DAB36D4D52A48CDFD8 /* libPods.a */; };
+		E31B232B190ED0DC00EE24F9 /* check-green.png in Resources */ = {isa = PBXBuildFile; fileRef = E31B2329190ED0DC00EE24F9 /* check-green.png */; };
+		E31B232C190ED0DC00EE24F9 /* check-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = E31B232A190ED0DC00EE24F9 /* check-grey.png */; };
+		E322F05C18F461CF00809A6A /* Sitio.m in Sources */ = {isa = PBXBuildFile; fileRef = E322F05818F461CF00809A6A /* Sitio.m */; };
+		E322F05D18F461CF00809A6A /* Punto.m in Sources */ = {isa = PBXBuildFile; fileRef = E322F05B18F461CF00809A6A /* Punto.m */; };
+		E324832E18E1F28D00EC9BDB /* pathActModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E324832D18E1F28D00EC9BDB /* pathActModel.m */; };
+		E324833718E449FB00EC9BDB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E324833518E449FB00EC9BDB /* Model.xcdatamodeld */; };
+		E324833918E44AAC00EC9BDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E324833818E44AAC00EC9BDB /* CoreData.framework */; };
+		E3287E84191947EC00934816 /* check-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = E3287E83191947EC00934816 /* check-orange.png */; };
+		E33F79D118F96C8A00507068 /* _Punto.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F79D018F96C8A00507068 /* _Punto.m */; };
+		E346AC2D18FAE1150032BBC9 /* _Sitio.m in Sources */ = {isa = PBXBuildFile; fileRef = E346AC2C18FAE1150032BBC9 /* _Sitio.m */; };
+		E35221241900820C007728AA /* place-3-32R.png in Resources */ = {isa = PBXBuildFile; fileRef = E35221211900820C007728AA /* place-3-32R.png */; };
+		E35221251900820C007728AA /* place-2-32R.png in Resources */ = {isa = PBXBuildFile; fileRef = E35221221900820C007728AA /* place-2-32R.png */; };
+		E35221261900820C007728AA /* place-1-32R.png in Resources */ = {isa = PBXBuildFile; fileRef = E35221231900820C007728AA /* place-1-32R.png */; };
+		E35A27D118DF3670008030B0 /* pathActViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35A27CF18DF3670008030B0 /* pathActViewController.m */; };
+		E35A27D518DF36EB008030B0 /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35A27D418DF36EB008030B0 /* mapViewController.m */; };
+		E367C3C818DF44E6007A6124 /* place-1-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E367C3C518DF44E6007A6124 /* place-1-32.png */; };
+		E367C3C918DF44E7007A6124 /* place-2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E367C3C618DF44E6007A6124 /* place-2-32.png */; };
+		E367C3CA18DF44E7007A6124 /* place-3-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E367C3C718DF44E6007A6124 /* place-3-32.png */; };
+		E36868D918DF1817002C1619 /* pathActAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E36868D818DF1817002C1619 /* pathActAppDelegate.m */; };
+		E36868DC18DF186B002C1619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E36868DA18DF186B002C1619 /* main.m */; };
+		E36B42A01901912200CB6421 /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = E36B429F1901912200CB6421 /* Properties.plist */; };
+		E38B6927190D463A00B31CCE /* key-32.png in Resources */ = {isa = PBXBuildFile; fileRef = E38B6926190D463A00B31CCE /* key-32.png */; };
+		E38B6937190D7E3800B31CCE /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E38B6934190D7E3800B31CCE /* 1.wav */; };
+		E38B6938190D7E3800B31CCE /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E38B6935190D7E3800B31CCE /* 2.wav */; };
+		E38B6939190D7E3800B31CCE /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E38B6936190D7E3800B31CCE /* 3.wav */; };
+		E397D8B919461CC600F71827 /* resideRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E397D8B819461CC600F71827 /* resideRootViewController.m */; };
+		E3B8791118EB3ABD0013E4FF /* PACTMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B8791018EB3ABD0013E4FF /* PACTMapAnnotation.m */; };
 		E3CBE42C18CCF1F800F078EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE42B18CCF1F800F078EF /* Foundation.framework */; };
 		E3CBE42E18CCF1F800F078EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE42D18CCF1F800F078EF /* CoreGraphics.framework */; };
 		E3CBE43018CCF1F800F078EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE42F18CCF1F800F078EF /* UIKit.framework */; };
 		E3CBE43618CCF1F800F078EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE43418CCF1F800F078EF /* InfoPlist.strings */; };
-		E3CBE43818CCF1F800F078EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE43718CCF1F800F078EF /* main.m */; };
-		E3CBE43C18CCF1F800F078EF /* pathActAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE43B18CCF1F800F078EF /* pathActAppDelegate.m */; };
-		E3CBE43F18CCF1F800F078EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE43D18CCF1F800F078EF /* Main.storyboard */; };
-		E3CBE44218CCF1F800F078EF /* pathActViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE44118CCF1F800F078EF /* pathActViewController.m */; };
 		E3CBE44418CCF1F800F078EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE44318CCF1F800F078EF /* Images.xcassets */; };
 		E3CBE44B18CCF1F800F078EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE44A18CCF1F800F078EF /* XCTest.framework */; };
 		E3CBE44C18CCF1F800F078EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE42B18CCF1F800F078EF /* Foundation.framework */; };
 		E3CBE44D18CCF1F800F078EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE42F18CCF1F800F078EF /* UIKit.framework */; };
 		E3CBE45518CCF1F800F078EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3CBE45318CCF1F800F078EF /* InfoPlist.strings */; };
 		E3CBE45718CCF1F800F078EF /* PathActTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CBE45618CCF1F800F078EF /* PathActTests.m */; };
+		E3CBE46118CCF20300F078EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE46018CCF20300F078EF /* CoreLocation.framework */; };
+		E3CBE46318CCF22700F078EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CBE46218CCF22700F078EF /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +60,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33D157DAB36D4D52A48CDFD8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9058A90AE555496D811F14E1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E31B2329190ED0DC00EE24F9 /* check-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check-green.png"; path = "Resources/Images/check-green.png"; sourceTree = "<group>"; };
+		E31B232A190ED0DC00EE24F9 /* check-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check-grey.png"; path = "Resources/Images/check-grey.png"; sourceTree = "<group>"; };
+		E322F05818F461CF00809A6A /* Sitio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sitio.m; sourceTree = "<group>"; };
+		E322F05918F461CF00809A6A /* Punto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Punto.h; sourceTree = "<group>"; };
+		E322F05A18F461CF00809A6A /* Sitio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sitio.h; sourceTree = "<group>"; };
+		E322F05B18F461CF00809A6A /* Punto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Punto.m; sourceTree = "<group>"; };
+		E324832C18E1F28D00EC9BDB /* pathActModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pathActModel.h; sourceTree = "<group>"; };
+		E324832D18E1F28D00EC9BDB /* pathActModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pathActModel.m; sourceTree = "<group>"; };
+		E324833618E449FB00EC9BDB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E324833818E44AAC00EC9BDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E3287E83191947EC00934816 /* check-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check-orange.png"; path = "Resources/Images/check-orange.png"; sourceTree = "<group>"; };
+		E33F79CF18F96C8A00507068 /* _Punto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Punto.h; sourceTree = "<group>"; };
+		E33F79D018F96C8A00507068 /* _Punto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Punto.m; sourceTree = "<group>"; };
+		E346AC2B18FAE1150032BBC9 /* _Sitio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Sitio.h; sourceTree = "<group>"; };
+		E346AC2C18FAE1150032BBC9 /* _Sitio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Sitio.m; sourceTree = "<group>"; };
+		E35221211900820C007728AA /* place-3-32R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-3-32R.png"; path = "Resources/Images/place-3-32R.png"; sourceTree = "<group>"; };
+		E35221221900820C007728AA /* place-2-32R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-2-32R.png"; path = "Resources/Images/place-2-32R.png"; sourceTree = "<group>"; };
+		E35221231900820C007728AA /* place-1-32R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-1-32R.png"; path = "Resources/Images/place-1-32R.png"; sourceTree = "<group>"; };
+		E35A27CF18DF3670008030B0 /* pathActViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pathActViewController.m; path = Controller/pathActViewController/pathActViewController.m; sourceTree = "<group>"; };
+		E35A27D018DF3670008030B0 /* pathActViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pathActViewController.h; path = Controller/pathActViewController/pathActViewController.h; sourceTree = "<group>"; };
+		E35A27D318DF36EB008030B0 /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mapViewController.h; path = Controller/mapViewController/mapViewController.h; sourceTree = "<group>"; };
+		E35A27D418DF36EB008030B0 /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mapViewController.m; path = Controller/mapViewController/mapViewController.m; sourceTree = "<group>"; };
+		E367C3C518DF44E6007A6124 /* place-1-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-1-32.png"; path = "Resources/Images/place-1-32.png"; sourceTree = "<group>"; };
+		E367C3C618DF44E6007A6124 /* place-2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-2-32.png"; path = "Resources/Images/place-2-32.png"; sourceTree = "<group>"; };
+		E367C3C718DF44E6007A6124 /* place-3-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "place-3-32.png"; path = "Resources/Images/place-3-32.png"; sourceTree = "<group>"; };
+		E36868D718DF1817002C1619 /* pathActAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pathActAppDelegate.h; path = Application/pathActAppDelegate.h; sourceTree = "<group>"; };
+		E36868D818DF1817002C1619 /* pathActAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = pathActAppDelegate.m; path = Application/pathActAppDelegate.m; sourceTree = "<group>"; };
+		E36868DA18DF186B002C1619 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = "<group>"; };
+		E36868DB18DF186B002C1619 /* PathAct-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PathAct-Prefix.pch"; path = "Application/PathAct-Prefix.pch"; sourceTree = "<group>"; };
+		E36B429F1901912200CB6421 /* Properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		E38B6926190D463A00B31CCE /* key-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-32.png"; path = "Resources/Images/key-32.png"; sourceTree = "<group>"; };
+		E38B6934190D7E3800B31CCE /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 1.wav; path = Resources/Sounds/1.wav; sourceTree = "<group>"; };
+		E38B6935190D7E3800B31CCE /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 2.wav; path = Resources/Sounds/2.wav; sourceTree = "<group>"; };
+		E38B6936190D7E3800B31CCE /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 3.wav; path = Resources/Sounds/3.wav; sourceTree = "<group>"; };
+		E397D8B719461CC600F71827 /* resideRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resideRootViewController.h; path = resideViewController/resideRootViewController.h; sourceTree = "<group>"; };
+		E397D8B819461CC600F71827 /* resideRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = resideRootViewController.m; path = resideViewController/resideRootViewController.m; sourceTree = "<group>"; };
+		E3B8790F18EB3ABD0013E4FF /* PACTMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACTMapAnnotation.h; sourceTree = "<group>"; };
+		E3B8791018EB3ABD0013E4FF /* PACTMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACTMapAnnotation.m; sourceTree = "<group>"; };
 		E3CBE42818CCF1F800F078EF /* PathAct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathAct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CBE42B18CCF1F800F078EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3CBE42D18CCF1F800F078EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E3CBE42F18CCF1F800F078EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3CBE43318CCF1F800F078EF /* PathAct-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathAct-Info.plist"; sourceTree = "<group>"; };
 		E3CBE43518CCF1F800F078EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3CBE43718CCF1F800F078EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3CBE43918CCF1F800F078EF /* PathAct-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PathAct-Prefix.pch"; sourceTree = "<group>"; };
-		E3CBE43A18CCF1F800F078EF /* pathActAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathActAppDelegate.h; sourceTree = "<group>"; };
-		E3CBE43B18CCF1F800F078EF /* pathActAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pathActAppDelegate.m; sourceTree = "<group>"; };
 		E3CBE43E18CCF1F800F078EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3CBE44018CCF1F800F078EF /* pathActViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pathActViewController.h; sourceTree = "<group>"; };
-		E3CBE44118CCF1F800F078EF /* pathActViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pathActViewController.m; sourceTree = "<group>"; };
 		E3CBE44318CCF1F800F078EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3CBE44918CCF1F800F078EF /* PathActTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathActTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CBE44A18CCF1F800F078EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E3CBE45218CCF1F800F078EF /* PathActTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathActTests-Info.plist"; sourceTree = "<group>"; };
 		E3CBE45418CCF1F800F078EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3CBE45618CCF1F800F078EF /* PathActTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathActTests.m; sourceTree = "<group>"; };
+		E3CBE46018CCF20300F078EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3CBE46218CCF22700F078EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +122,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E324833918E44AAC00EC9BDB /* CoreData.framework in Frameworks */,
+				E3CBE46318CCF22700F078EF /* MapKit.framework in Frameworks */,
+				E3CBE46118CCF20300F078EF /* CoreLocation.framework in Frameworks */,
 				E3CBE42E18CCF1F800F078EF /* CoreGraphics.framework in Frameworks */,
 				E3CBE43018CCF1F800F078EF /* UIKit.framework in Frameworks */,
 				E3CBE42C18CCF1F800F078EF /* Foundation.framework in Frameworks */,
+				A630045045734C15BCB96DBB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +145,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E35A27CE18DF3654008030B0 /* pathActViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E35A27D018DF3670008030B0 /* pathActViewController.h */,
+				E35A27CF18DF3670008030B0 /* pathActViewController.m */,
+			);
+			name = pathActViewController;
+			sourceTree = "<group>";
+		};
+		E35A27D218DF367D008030B0 /* mapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E35A27D318DF36EB008030B0 /* mapViewController.h */,
+				E35A27D418DF36EB008030B0 /* mapViewController.m */,
+			);
+			name = mapViewController;
+			sourceTree = "<group>";
+		};
+		E35A27D618DF3F3F008030B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E38B691F190D45CE00B31CCE /* Sounds */,
+				E36B429A19017AB200CB6421 /* Properties */,
+				E35A27D718DF3F4B008030B0 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E35A27D718DF3F4B008030B0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3287E83191947EC00934816 /* check-orange.png */,
+				E31B2329190ED0DC00EE24F9 /* check-green.png */,
+				E31B232A190ED0DC00EE24F9 /* check-grey.png */,
+				E38B6926190D463A00B31CCE /* key-32.png */,
+				E35221211900820C007728AA /* place-3-32R.png */,
+				E35221221900820C007728AA /* place-2-32R.png */,
+				E35221231900820C007728AA /* place-1-32R.png */,
+				E367C3C518DF44E6007A6124 /* place-1-32.png */,
+				E367C3C618DF44E6007A6124 /* place-2-32.png */,
+				E367C3C718DF44E6007A6124 /* place-3-32.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E36868D218DF175A002C1619 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E36868DA18DF186B002C1619 /* main.m */,
+				E36868DB18DF186B002C1619 /* PathAct-Prefix.pch */,
+				E36868D718DF1817002C1619 /* pathActAppDelegate.h */,
+				E36868D818DF1817002C1619 /* pathActAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E36868D318DF1761002C1619 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E397D8B619461C7F00F71827 /* resideViewControler */,
+				E35A27D218DF367D008030B0 /* mapViewController */,
+				E35A27CE18DF3654008030B0 /* pathActViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E36B429A19017AB200CB6421 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				E36B429F1901912200CB6421 /* Properties.plist */,
+			);
+			name = Properties;
+			path = Resources/Properties;
+			sourceTree = "<group>";
+		};
+		E38B691F190D45CE00B31CCE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E38B6934190D7E3800B31CCE /* 1.wav */,
+				E38B6935190D7E3800B31CCE /* 2.wav */,
+				E38B6936190D7E3800B31CCE /* 3.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E397D8B619461C7F00F71827 /* resideViewControler */ = {
+			isa = PBXGroup;
+			children = (
+				E397D8B719461CC600F71827 /* resideRootViewController.h */,
+				E397D8B819461CC600F71827 /* resideRootViewController.m */,
+			);
+			name = resideViewControler;
+			sourceTree = "<group>";
+		};
+		E39B3BB318D461BF0017EFC9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		E3B856B918E1E05D00D21B73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E346AC2B18FAE1150032BBC9 /* _Sitio.h */,
+				E346AC2C18FAE1150032BBC9 /* _Sitio.m */,
+				E33F79CF18F96C8A00507068 /* _Punto.h */,
+				E33F79D018F96C8A00507068 /* _Punto.m */,
+				E322F05918F461CF00809A6A /* Punto.h */,
+				E322F05B18F461CF00809A6A /* Punto.m */,
+				E322F05A18F461CF00809A6A /* Sitio.h */,
+				E322F05818F461CF00809A6A /* Sitio.m */,
+				E324832C18E1F28D00EC9BDB /* pathActModel.h */,
+				E324832D18E1F28D00EC9BDB /* pathActModel.m */,
+				E324833518E449FB00EC9BDB /* Model.xcdatamodeld */,
+				E3B8790F18EB3ABD0013E4FF /* PACTMapAnnotation.h */,
+				E3B8791018EB3ABD0013E4FF /* PACTMapAnnotation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3B856BE18E1E05D00D21B73 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
 		E3CBE41F18CCF1F800F078EF = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +280,7 @@
 				E3CBE45018CCF1F800F078EF /* PathActTests */,
 				E3CBE42A18CCF1F800F078EF /* Frameworks */,
 				E3CBE42918CCF1F800F078EF /* Products */,
+				9058A90AE555496D811F14E1 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +296,14 @@
 		E3CBE42A18CCF1F800F078EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E324833818E44AAC00EC9BDB /* CoreData.framework */,
+				E3CBE46218CCF22700F078EF /* MapKit.framework */,
+				E3CBE46018CCF20300F078EF /* CoreLocation.framework */,
 				E3CBE42B18CCF1F800F078EF /* Foundation.framework */,
 				E3CBE42D18CCF1F800F078EF /* CoreGraphics.framework */,
 				E3CBE42F18CCF1F800F078EF /* UIKit.framework */,
 				E3CBE44A18CCF1F800F078EF /* XCTest.framework */,
+				33D157DAB36D4D52A48CDFD8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +311,13 @@
 		E3CBE43118CCF1F800F078EF /* PathAct */ = {
 			isa = PBXGroup;
 			children = (
-				E3CBE43A18CCF1F800F078EF /* pathActAppDelegate.h */,
-				E3CBE43B18CCF1F800F078EF /* pathActAppDelegate.m */,
+				E3B856B918E1E05D00D21B73 /* Models */,
+				E3B856BE18E1E05D00D21B73 /* Vendors */,
+				E35A27D618DF3F3F008030B0 /* Resources */,
+				E36868D318DF1761002C1619 /* Controllers */,
+				E36868D218DF175A002C1619 /* Application */,
+				E39B3BB318D461BF0017EFC9 /* Library */,
 				E3CBE43D18CCF1F800F078EF /* Main.storyboard */,
-				E3CBE44018CCF1F800F078EF /* pathActViewController.h */,
-				E3CBE44118CCF1F800F078EF /* pathActViewController.m */,
 				E3CBE44318CCF1F800F078EF /* Images.xcassets */,
 				E3CBE43218CCF1F800F078EF /* Supporting Files */,
 			);
@@ -128,8 +329,6 @@
 			children = (
 				E3CBE43318CCF1F800F078EF /* PathAct-Info.plist */,
 				E3CBE43418CCF1F800F078EF /* InfoPlist.strings */,
-				E3CBE43718CCF1F800F078EF /* main.m */,
-				E3CBE43918CCF1F800F078EF /* PathAct-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3CBE45A18CCF1F800F078EF /* Build configuration list for PBXNativeTarget "PathAct" */;
 			buildPhases = (
+				04E34FCD99334AE7A3E5D021 /* Check Pods Manifest.lock */,
 				E3CBE42418CCF1F800F078EF /* Sources */,
 				E3CBE42518CCF1F800F078EF /* Frameworks */,
 				E3CBE42618CCF1F800F078EF /* Resources */,
+				FC0FAD46362E47D3B5F0068E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +398,17 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = pathAct;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alejandro Garcia Andrade";
 				TargetAttributes = {
+					E3CBE42718CCF1F800F078EF = {
+						DevelopmentTeam = 32SK7JQUP8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					E3CBE44818CCF1F800F078EF = {
 						TestTargetID = E3CBE42718CCF1F800F078EF;
 					};
@@ -229,9 +438,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38B6939190D7E3800B31CCE /* 3.wav in Resources */,
+				E38B6938190D7E3800B31CCE /* 2.wav in Resources */,
 				E3CBE44418CCF1F800F078EF /* Images.xcassets in Resources */,
+				E3287E84191947EC00934816 /* check-orange.png in Resources */,
+				E31B232C190ED0DC00EE24F9 /* check-grey.png in Resources */,
+				E367C3C918DF44E7007A6124 /* place-2-32.png in Resources */,
+				E35221251900820C007728AA /* place-2-32R.png in Resources */,
+				E38B6927190D463A00B31CCE /* key-32.png in Resources */,
+				E367C3CA18DF44E7007A6124 /* place-3-32.png in Resources */,
 				E3CBE43618CCF1F800F078EF /* InfoPlist.strings in Resources */,
-				E3CBE43F18CCF1F800F078EF /* Main.storyboard in Resources */,
+				E38B6937190D7E3800B31CCE /* 1.wav in Resources */,
+				E35221261900820C007728AA /* place-1-32R.png in Resources */,
+				E367C3C818DF44E6007A6124 /* place-1-32.png in Resources */,
+				E31B232B190ED0DC00EE24F9 /* check-green.png in Resources */,
+				E35221241900820C007728AA /* place-3-32R.png in Resources */,
+				E36B42A01901912200CB6421 /* Properties.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +467,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04E34FCD99334AE7A3E5D021 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0FAD46362E47D3B5F0068E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3CBE42418CCF1F800F078EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CBE44218CCF1F800F078EF /* pathActViewController.m in Sources */,
-				E3CBE43C18CCF1F800F078EF /* pathActAppDelegate.m in Sources */,
-				E3CBE43818CCF1F800F078EF /* main.m in Sources */,
+				E33F79D118F96C8A00507068 /* _Punto.m in Sources */,
+				E322F05D18F461CF00809A6A /* Punto.m in Sources */,
+				E322F05C18F461CF00809A6A /* Sitio.m in Sources */,
+				E346AC2D18FAE1150032BBC9 /* _Sitio.m in Sources */,
+				E3B8791118EB3ABD0013E4FF /* PACTMapAnnotation.m in Sources */,
+				E36868D918DF1817002C1619 /* pathActAppDelegate.m in Sources */,
+				E35A27D118DF3670008030B0 /* pathActViewController.m in Sources */,
+				E36868DC18DF186B002C1619 /* main.m in Sources */,
+				E397D8B919461CC600F71827 /* resideRootViewController.m in Sources */,
+				E324833718E449FB00EC9BDB /* Model.xcdatamodeld in Sources */,
+				E35A27D518DF36EB008030B0 /* mapViewController.m in Sources */,
+				E324832E18E1F28D00EC9BDB /* pathActModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +570,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -324,6 +587,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "Application/PathAct-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -345,7 +610,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -362,6 +626,8 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "Application/PathAct-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -376,26 +642,34 @@
 		};
 		E3CBE45B18CCF1F800F078EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9058A90AE555496D811F14E1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PathAct/PathAct-Prefix.pch";
+				GCC_PREFIX_HEADER = "PathAct/Application/PathAct-Prefix.pch";
 				INFOPLIST_FILE = "PathAct/PathAct-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		E3CBE45C18CCF1F800F078EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9058A90AE555496D811F14E1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PathAct/PathAct-Prefix.pch";
+				GCC_PREFIX_HEADER = "PathAct/Application/PathAct-Prefix.pch";
 				INFOPLIST_FILE = "PathAct/PathAct-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +677,6 @@
 		E3CBE45E18CCF1F800F078EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PathAct.app/PathAct";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -411,7 +684,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PathAct/PathAct-Prefix.pch";
+				GCC_PREFIX_HEADER = "PathAct/Application/PathAct-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -426,7 +699,6 @@
 		E3CBE45F18CCF1F800F078EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PathAct.app/PathAct";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -434,7 +706,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PathAct/PathAct-Prefix.pch";
+				GCC_PREFIX_HEADER = "PathAct/Application/PathAct-Prefix.pch";
 				INFOPLIST_FILE = "PathActTests/PathActTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -461,6 +733,7 @@
 				E3CBE45C18CCF1F800F078EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3CBE45D18CCF1F800F078EF /* Build configuration list for PBXNativeTarget "PathActTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +742,22 @@
 				E3CBE45F18CCF1F800F078EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E324833518E449FB00EC9BDB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E324833618E449FB00EC9BDB /* Model.xcdatamodel */,
+			);
+			currentVersion = E324833618E449FB00EC9BDB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E3CBE42018CCF1F800F078EF /* Project object */;
 }
